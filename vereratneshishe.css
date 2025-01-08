@@ -1,0 +1,73 @@
+body {
+    background-image: url('/Snapchat-612944600.jpg');
+    background-size: cover; /* Siguron që imazhi mbulon tërë ekranin */
+    background-position: center; /* Vendos imazhin në qendër të ekranit */
+    background-attachment: fixed; /* Bën që imazhi të qëndrojë i fiksuar gjatë skrollimit */
+    background-repeat: no-repeat; /* Siguron që imazhi nuk përsëritet */
+    height: 100vh; /* Siguron që background-i mbulon gjithë lartësinë e dritares së shfletuesit */
+    margin: 0; /* Eliminon margjinat për të shmangur hapësirat e zbrazëta rreth ekranit */
+    font-family: Arial, sans-serif; /* Definon fontin e përgjithshëm për tekstin */
+}
+
+/* Container përmban të gjitha div-et e produktit */
+.container {
+    display: flex;
+    flex-direction: column; /* Vendos elementet njëri pas tjetrit */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+ 
+ .div1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Sfondo i errët me transparencë */
+    border-radius: 12px; /* Rrumbullakos këndet për më shumë elegancë */
+    margin-bottom: 20px; /* Hapësirë mes div-eve */
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+} 
+
+
+/* Imazhi i produktit */
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Siguron që imazhi mbulon hapësirën pa deformuar */
+    margin-right: 20px;
+    border-radius: 8px; /* Rrumbullakos këndet e imazhit */
+    
+}
+
+/* Teksti i përmbajtjes */
+.text {
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Përmirësimi i lexueshmërisë në pajisjet mobile */
+@media (max-width: 768px) {
+    .div1 {
+        flex-direction: column; /* Për mobile, vendosim imazhin dhe tekstin një mbi tjetrin */
+        align-items: center; /* Vendosim elementet në qendër */
+        text-align: center; /* Teksti është në qendër */
+    }
+
+    .img {
+        margin-bottom: 20px; /* Shton hapësirë nën imazh */
+    }
+}

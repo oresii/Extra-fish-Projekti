@@ -1,0 +1,205 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container for the contact form */
+.container {
+
+    
+}
+
+/* Header for the form */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for the image container */
+.image-container {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Make the image responsive */
+.background-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Additional styles for the background */
+body {
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+    color: #fff;
+    padding: 0;
+}
+
+/* Style the form text to ensure readability */
+/* .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    /* color: #333;
+} */
+
+/* Style for the form inputs
+input[type="text"], input[type="email"], textarea { */
+    /* background-color: #fff;
+    border-radius: 5px;
+} */ 
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+
+
+/* Container for the contact form */
+.container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for form */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%; /* Make container full width up to max-width */
+    border-radius: 8px;
+    width: 100%; /* Make container full width up to max-width */
+    margin-top: 100px; /
+}
+
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+.image-container {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.background-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+body {
+    background-image: url('');
+    background-position: center;
+    background-attachment: fixed; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100vh; 
+    padding: 20px;
+    background-size: cover;
+    
+
+} 

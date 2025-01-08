@@ -1,0 +1,82 @@
+/* Përgjithshme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/273295093_5063157647062245_7360940217979464149_n.jpg'); /* Vendosni rrugën e imazhit tuaj */
+    background-size: contain; /* Implikon që imazhi do të përshtatet brenda ekranit dhe nuk do ta mbulojë të gjithë */
+    background-position: center center; /* Pozicioni i imazhit në qendër të ekranit */
+    background-attachment: fixed; /* Implikon që imazhi të mbetet fiks kur përdoruesi shfleton */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: rgba(30, 58, 138, 0.8); /* Ngjyrë blu me transparencë për të lejuar që imazhi të duket pas */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menuja */
+nav.menu {
+    /* background-color: #ffffff; */
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; /* Shton hapësirë 20px nga maja e faqes */
+}
+
+/* Për listën */
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav.menu > ul > li {
+    width: calc(33.33% - 10px);  /* Të marri një të tretën e gjerësisë për çdo element */
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(152, 152, 152, 0.7); /* Ngjyrë blu me transparencë */
+    opacity: 1; /* E heqim opacity 20px që ishte gabim, duke e vendosur në 1 për 100% të dukshmërisë */
+    color: white;
+    border-radius: 10px; /* Rrumbullakos skajet me radius 10px */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hijë për të dhënë një efekt të thellë */
+}
+
+/* Nëse dëshironi një transparencë më të madhe për të krijuar efektin më të butë, mund të ulni vlerën e opacitetit (nga 0.7 më shumë). */
+
+
+nav.menu > ul > li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+nav.menu > ul > li:hover {
+    background-color: #282828;
+}
+
+nav.menu > ul > li a:hover {
+    color:  white;
+}
+
+/* Për telefonat dhe ekrane më të vegjël */
+@media (max-width: 768px) {
+    nav.menu > ul > li {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    nav.menu > ul > li {
+        width: 100%;
+    }
+}
+
